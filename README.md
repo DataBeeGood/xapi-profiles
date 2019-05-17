@@ -1,12 +1,11 @@
 # xapi-profiles
-This is a companion specification to the core xAPI Specification that addresses the structure and supporting services for xAPI Profiles.
+This is a specification that addresses the structure and supporting services for xAPI Profiles.  An xAPI Profile is the human and/or machine-readable documentation used when implementing xAPI in a particular context. 
 
-A profile is the human and/or machine-readable documentation of application-specific concepts, statement patterns, extensions, and statement templates used when implementing xAPI in a particular context. In a nutshell, a profile documents the vocabulary concepts, extensions, statement templates, and patterns that are required for xAPI to be implemented consistently for a specific use case. A profile empowers designers and developers to establish a controlled, domain-specific vocabulary and determine what data should be captured/stored and reported on. In other words, a profile really is the blueprint for a successful, semantically interoperable xAPI implementation.
+This Github repository contains the [xAPI Profiles Specification](https://github.com/adlnet/xapi-profiles), which stands as a companion specification to the core xAPI Specification. The core [xAPI Specification](https://github.com/adlnet/xAPI-Spec) is a learning technologies interoperability specification, which describes learner activity and experiences in a manner that allows sharing and analysis across different systems and contexts, wherever xAPI has been implemented. 
 
-This Github repository contains the xAPI Profiles Specification. [xAPI](https://github.com/adlnet/xAPI-Spec) is a learning
-technologies interoperability specification that describes communication
-about learner activity and experiences between technologies. The xAPI Profiles Specification stands as a
-companion to xAPI, and is divided into three documents:
+In order to handle specialized Use Cases efficiently and minimize the problem of vocabulary confusion across learning domains, customized xAPI Profiles have become an essential companion for designers and developers.  Each xAPI Profile documents a domain-specific vocabulary and statement template, which controls descriptive data generation and enhances meaningful analytical reporting for learning activities within a particular domain.  In other words, xAPI Profiles are blueprints for a successful, semantically interoperable xAPI implementation.
+
+The xAPI Profiles Specification is divided into three documents:
 
 * Part One: [About xAPI Profiles](./xapi-profiles-about.md)
 * Part Two: [xAPI Profiles Structure](./xapi-profiles-structure.md)
